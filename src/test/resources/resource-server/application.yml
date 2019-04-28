@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  jmx:
+    enabled: false
+endpoints:
+  jmx:
+    enabled: false
+
+security:
+  oauth2:
+    client:
+      client-id: myClientID
+      client-secret: SECRET
+    resource:
+      token-info-uri: http://localhost:8082/oauth/check_token
+
+logging:
+  level:
+    ROOT: info

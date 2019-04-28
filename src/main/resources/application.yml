@@ -1,0 +1,10 @@
+spring:
+  jmx:
+    enabled: false
+endpoints:
+  jmx:
+    enabled: false
+
+logging:
+  level:
+    ROOT: trace

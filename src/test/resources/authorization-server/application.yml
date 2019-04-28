@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  jmx:
+    enabled: false
+endpoints:
+  jmx:
+    enabled: false
+
+logging:
+  level:
+    ROOT: debug
